@@ -15,16 +15,22 @@ body{
 	padding-bottom:2%;
 }
 
+h1{
+	padding-left:10%;
+	margin:0%;
+
+
+}
+
 #header{
 	border:10px;
 	padding:1px;
 }
 
 img.logo{
-	position:relative;
 	float:left;
-	left:10px;
-	top:10px;
+	margin-top:10px;
+	margin-left:10px;
 }
 
 #main{
@@ -53,6 +59,8 @@ img.screenshot{
 #navbar {
 	position:relative;
 	float:right;
+	margin-top:10px;
+	margin-right:10px;
 }
 ul{
 	position:relative;
