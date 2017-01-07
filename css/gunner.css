@@ -7,7 +7,7 @@ body{
 }
 
 #wrapper{
-	max-width:1200px;
+	max-width:1920px;
 	min-width:320px;
 	margin:0 auto;
 	padding-left:2%;
@@ -16,10 +16,9 @@ body{
 }
 
 h1{
+	position:relative;
 	padding-left:10%;
 	margin:0%;
-
-
 }
 
 #header{
@@ -37,10 +36,10 @@ img.logo{
 	position:static;
 	float:bottom;
 	border: 1px solid black;
-	max-width:1200px;
+	max-width:1920px;
 	min-width:320px;
 	margin:0 auto;
-	padding-top:10%;
+	padding-top:110px;
 	padding-left:2%;
 	padding-right:2%;
 	padding-bottom:2%;
@@ -104,6 +103,10 @@ li a:hover{
 	text-shadow: 1px 1px 10px #FFFFFF;
 }
 
+dt{
+	font-weight:bold;
+	font-size:120%;
+}
 p{
 	font-size:100%;
 	list-style-type:circle;
