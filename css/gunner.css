@@ -6,40 +6,30 @@ body{
 	text-shadow: 1px 1px 10px #000000;
 }
 
-#wrapper{
-	max-width:1920px;
-	min-width:320px;
-	margin:0 auto;
-	padding-left:2%;
-	padding-right:2%;
-	padding-bottom:2%;
-}
-
 h1{
-	position:relative;
-	padding-left:10%;
+	position:static;
+	max-width:1200px;
+	min-width:320px;
 	margin:0%;
 }
 
-#header{
-	border:10px;
-	padding:1px;
+/* hyperlink CSS */
+a:link {
+    color: #ffff00;
 }
 
-img.logo{
-	float:left;
-	margin-top:10px;
-	margin-left:10px;
+a:visited {
+    color: #00ffff;
 }
 
-#main{
+/*hyperlink end*/
+
+#wrapper{
 	position:static;
-	float:bottom;
 	border: 1px solid black;
-	max-width:1920px;
+	max-width:1200px;
 	min-width:320px;
 	margin:0 auto;
-	padding-top:110px;
 	padding-left:2%;
 	padding-right:2%;
 	padding-bottom:2%;
@@ -48,7 +38,23 @@ img.logo{
 	*z-index: -1;
 }
 
-#content{
+
+
+#header{
+	border:10px;
+	padding:1px;
+}
+
+img.logo{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#main{
+
+}
+
+.content{
 	position:relative;
 	border: 1px solid black;
 	padding:10px;
@@ -115,6 +121,8 @@ p{
 ul{
 	font-size:100%;
 }
+
+/*Navbar end */
 
 .terminalblock{
 	background-color:#000000;
