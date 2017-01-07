@@ -105,7 +105,8 @@ li a:hover{
 }
 
 p{
-	font-size:100%
+	font-size:100%;
+	list-style-type:circle;
 }
 
 ul{
