@@ -74,7 +74,7 @@ img.screenshot{
 	margin-top:10px;
 	margin-right:10px;
 }
-ul{
+ul.navbar{
 	position:relative;
     margin:auto;
     padding: 5px;
@@ -83,9 +83,10 @@ ul{
     border-style:solid;
 	border-width:1px;
 	border-color:#00DF59;
+	font-size:100%
 }
 
-li{
+ul.navbar li{
 	position:relative;
 	margin:0px;
 	display:inline;
@@ -93,19 +94,17 @@ li{
 	list-style:none;
 }
 
-li a{
+ul.navbar li a{
 	position:relative;
 	float:center;
     padding: 6px 16px;
 	font-size:85%;
     text-decoration:none;
-    color:#FFFFFF;
 }
 
-li a:hover{
+ul.navbar li a:hover{
 	padding-top:8px;
 	background-color:#00DF59;
-	color:#000000;
 	text-shadow: 1px 1px 10px #FFFFFF;
 }
 
@@ -116,10 +115,6 @@ dt{
 p{
 	font-size:100%;
 	list-style-type:circle;
-}
-
-ul{
-	font-size:100%;
 }
 
 /*Navbar end */
