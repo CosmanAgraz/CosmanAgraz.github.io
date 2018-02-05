@@ -63,24 +63,24 @@ img.logo{
 
 img.screenshot{
 	position:relative;
-	
+
 }
 
 /*navbar CSS*/
 
 #navbar {
 	position:relative;
-	float:right;
 	margin-top:10px;
 	margin-right:10px;
 }
 ul.navbar{
 	position:relative;
-    margin:auto;
-    padding: 5px;
-    background-color:#00421B;
-    list-style-type:none;
-    border-style:solid;
+	float:center;
+  margin:auto;
+  padding: 5px;
+  background-color:#00421B;
+  list-style-type:none;
+  border-style:solid;
 	border-width:1px;
 	border-color:#00DF59;
 	font-size:100%
@@ -88,6 +88,7 @@ ul.navbar{
 
 ul.navbar li{
 	position:relative;
+	float:center;
 	margin:0px;
 	display:inline;
 	text-align:center;
@@ -97,9 +98,9 @@ ul.navbar li{
 ul.navbar li a{
 	position:relative;
 	float:center;
-    padding: 6px 16px;
+  padding: 6px 16px;
 	font-size:85%;
-    text-decoration:none;
+  text-decoration:none;
 }
 
 ul.navbar li a:hover{
