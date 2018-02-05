@@ -29,25 +29,31 @@ a:visited {
 	border: 1px solid black;
 	max-width:1200px;
 	min-width:320px;
-	margin:0 auto;
+	margin: auto;
 	padding-left:2%;
 	padding-right:2%;
 	padding-bottom:2%;
-	background-color:#00170A;
-	box-shadow:5px 5px 10px #000000;
+	background-color:#000000;
+	/*old color bg color: #00170A*/
+	/*box-shadow:5px 5px 10px #000000;*/
 	*z-index: -1;
 }
 
 
 
 #header{
+	margin:auto;
+	text-align: center;
 	border:10px;
 	padding:1px;
 }
 
-img.logo{
-	margin-top:10px;
-	margin-left:10px;
+img.banner{
+	margin:auto;
+	text-align: center;
+	width:auto;
+	max-width:100%;
+	height:auto;
 }
 
 #main{
