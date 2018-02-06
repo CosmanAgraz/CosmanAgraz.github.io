@@ -76,8 +76,6 @@ img.screenshot{
 
 #navbar {
 	position:relative;
-	margin-top:10px;
-	margin-right:10px;
 }
 ul.navbar{
 	position:relative;
@@ -157,12 +155,12 @@ p{
 }
 
 #footer{
-	float:center;
-	background-color:#00421B;
+	background-color:#00170A;
+	color:#555555;
 	margin:auto;
 	*position:relative;
-	width:90%;
+	width:100%;
 	border-style:solid;
 	border-width:1px;
-	border-color:#00DF59;
+	border-color:#00421B;
 }
