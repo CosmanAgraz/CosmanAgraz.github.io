@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SLUG_GUNNER</title>
+    <!-- swa% -->
+    <link rel="stylesheet" type="text/css" href="css/gunner.css">
+    <link rel="icon" href="imgs/logo.png">
+    <!-- Javascript tings-->
+    <script src="update.js"></script>
+    <!-- The Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="language" content="English">
+    <meta name="keywords" content="CosmanAgraz, SLUG_GUNNER, SCA, 4graz">
+    <meta name="author" content="Sergio Cosman Agraz">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img class="banner" src="imgs/banner.png" alt="SLUG_GUNNER" width="1104" height="440">
+        <!--<h1 align="center">CosmanAgraz</h1>-->
+        <!--<img class="logo" src="imgs/logo.png" alt="logo.png" width="100" height="110">-->
+        <!-- Nav bar -->
+        <div id="navbar">
+          <ul class="navbar">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./artwork.html">Artwork</a>
+            </li>
+            <li>
+              <a href="./links.html">Links</a>
+            </li>
+            <li>
+              <a href="./credits.html">Credits</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Nav bar ends -->
+      </div>
+      <div id="main" align="left">
+        <h2 align="left"><u>Cultris 2 - A friendly guide to up-stacking</u></h2>
+          <div class="content">
+            <!--                            Body of the document begins here                        -->
+			<img class="cultris" src="imgs/cultris2/cultris2.png" style="box-shadow:0px 0px 15px #FFFFFF;">
+			<h3>Intro</h3>
+            <p>There aren't many guides for <a href="http://gewaltig.net/cultris2.aspx">Cultris 2</a>.  As its name implies, it is 
+			a Tetris-like cult game.  (Cult + Tetris = Cultris.  Genious, I know..)</p>
+			
+			<p>This guide will teach you how some important techniques that go into up-stacking, and are also useful in other 
+			Tetris variant games.  However, since Cultris 2 has the absence of hold - and only one piece preview - this information 
+			suddenly becomes more valuable.
+			
+			<h3>Cultris 2 Mechanics</h3>
+			<p>First, it is important to note that Cultris games do not follow the same versus rules as other Tetris games. 
+			This is the particular reason why the Cultris games stand out among the rest of the Tetris clones.  Consider 
+			the following:</p>
+			<p>ComboTimer = time you have to combo (in seconds)<br/>
+			ComboCounter = combo strength (1 = weak combo, 10 = strong combo)</p>
+			<p>The way you attack and defend is by making combos. The combo timer begins ticking the first line you clear when your 
+			timer is at zero seconds. If your timer is not at zero seconds, then your combo counter goes up.  Clearing more lines at 
+			once grants you more time to combo.<br/>Harddrop wiki explains this part well enough:</p>
+			<p>Base(comboTimer) + NumberOfLinesCleared * Bonus(comboCounter)</p>
+			<br/>
+			<table>
+				<tr>
+					<th colspan="15"> initial garbage lines per combo
+						</th></tr>
+						<tr>
+						<th width="90"> counter
+						</th><th width="35"> 1
+						</th><th width="35"> 2
+						</th><th width="35"> 3
+						</th><th width="35"> 4
+						</th><th width="35"> 5
+						</th><th width="35"> 6
+						</th><th width="35"> 7
+						</th><th width="35"> 8
+						</th><th width="35"> 9
+						</th><th width="35"> 10
+						</th><th width="35"> 11
+						</th><th width="35"> 12
+						</th><th width="35"> 13
+						</th><th width="35"> 14
+						</th></tr>
+						<tr>
+						<td> lines sent
+						</td><td> 0
+						</td><td> 1
+						</td><td> 1
+						</td><td> 1
+						</td><td> 2
+						</td><td> 2
+						</td><td> 3
+						</td><td> 5
+						</td><td> 7
+						</td><td> 9
+						</td><td> 11
+						</td><td> 11
+						</td><td> 11
+						</td><td> 11
+						</td></tr>
+						<tr>
+						<td> total sent
+						</td><td> 0
+						</td><td> 1
+						</td><td> 2
+						</td><td> 3
+						</td><td> 5
+						</td><td> 7
+						</td><td> 10
+						</td><td> 15
+						</td><td> 22
+						</td><td> 31
+						</td><td> 42
+						</td><td> 53
+						</td><td> 64
+						</td><td> 75
+						</td></tr>
+						<tr>
+						<td> total/counter
+						</td><td> 0.00
+						</td><td> 0.50
+						</td><td> 0.67
+						</td><td> 0.75
+						</td><td> 1.00
+						</td><td> 1.17
+						</td><td> 1.43
+						</td><td> 1.88
+						</td><td> 2.44
+						</td><td> 3.10
+						</td><td> 3.82
+						</td><td> 4.42
+						</td><td> 4.92
+						</td><td> 5.36
+						</td></tr>
+						<tr>
+						<th colspan="15"> combo-time expansion
+						</th></tr>
+						<tr>
+						<td> base time
+						</td><td> 2.4
+						</td><td> 1.1
+						</td><td> 0.4
+						</td><td> 0.05
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td></tr>
+						<tr>
+						<td> bonus time
+						</td><td> 1.2
+						</td><td> 0.6
+						</td><td> 0.3
+						</td><td> 0.2
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+						</td><td>&nbsp;?
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<br/>
+			<p class="codeblock">
+			<b>Combo-time example:</b><br/>
+			If you start a combo with a Single (counter=1), then you begin with 2.4 + 1 * 1.2 = 3.6 seconds combo-time.<br/>
+			If you start a combo with a Tetris (counter=1), then you begin with 2.4 + 4 * 1.2 = 7.2 seconds combo-time.<br/>
+			If this is followed up by a Single (counter=2), then you gain 1.1 + 1 * 0.6 = 1.7 seconds additional combo-time.<br/>
+			If this is followed up by a Tetris (counter=2), then you gain 1.1 + 4 * 0.6 = 3.5 seconds additional combo-time.<br/>
+			If you start with a Single followed by a Tetris, then you are rewarded with 3.6 + 3.5 = 7.1 seconds combo-time.<br/>
+			If you start with a Tetris followed by a Single, then you are rewarded with 7.2 + 1.7 = 8.9 seconds combo-time.<br/>
+			In both examples 5 lines were cleared, but the rewarded time is different.<br/>
+			Try to start a combo with a multi-line clear, but avoid them in the later course of a combo.<br/>
+			</p>
+			<a href="https://harddrop.com/wiki/Cultris_II">Source</a>
+			
+			<h3>How to stack safely</h3>
+			<p>As mentioned before, in Cultris games you cannot hold and you only get 1 piece preview.  Consider these stacks:<br/><br/>
+			<img class="cultris" src="imgs/cultris2/stack.png">
+			<br/>
+			The reason why the stack on the left is a bad stack is because it doesn't allow for easy down-stacking and there isn't much 
+			combo potential.  The stack on the right however, allows for any piece to be used to clear lines.  A good player can raise 
+			their combo counter higher than 10 with the stack on the right.</br><br/>
+			</p>
+
+			
+			<h3>Stacking tips</h3>
+			<p>So you stacked 2-wide (2 columns left open) and now you want to setup your Tetris.  Here's how you can do it:<br/><br/>
+			<img class="cultris" src="imgs/cultris2/2wide.png"><br/>
+			This works with J-piece, L-piece, and T-piece.<br/></p>
+			
+			<p>Now you want to fix your 3rd column.  There's a method for that too!<br/><br/>
+			<img class="cultris" src="imgs/cultris2/3wide.png"><br/>
+			This strategy works with the J-piece and L-piece, but it is not as effective with the T-piece, as the T-piece will increase your 
+			2nd column height by 1 and will leave you an overhang.<br/></p>
+			
+			<p>There will be times where you get an onslaught of s-pieces or z-pieces and you will have no choice but to 
+			drop it in your well.  This will result in your stack looking like this:<br/><br/>
+			<img class="cultris" src="imgs/cultris2/fixwell.png"><br/>
+			TA-DAA!! Now you have a Tetris setup!</p>
+			
+			<h3>Closing comments</h3>
+			<p>I hope this guide was of some use to some people.  Up-stacking can be pretty difficult in Cultris 2 
+			given the absence of hold and being limited to one piece preview.  This is it for now, but make sure to 
+			check out <a href="https://harddrop.com/wiki/Cultris_II">Harddrop's</a> in-depth guide on Cultris 2.  It 
+			goes into detail with the piece randomizer, twists, and much more!
+            <!--                            Body of the document ends here                          -->
+          </div>
+        <div id="footer" align="center">
+          &copy; 2018 Sergio Cosman Agraz
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
