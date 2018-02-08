@@ -146,7 +146,7 @@ th, td{
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .terminalblock{
