@@ -134,16 +134,19 @@ p{
 /*Navbar end */
 
 table, th, td{
-	text-align:center;
-	font-size:100%;
-	border: 1px white;
-	border-collapse:collapse;
+  text-align:center;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #FFFFFF;
 }
 
 th, td{
-	padding: 5px;
-	border: 1px white;
-	text-align:center;
+  text-align:center;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #FFFFFF;
 }
 
 .terminalblock{
