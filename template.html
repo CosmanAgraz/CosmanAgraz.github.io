@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/gunner.css">
     <link rel="icon" href="imgs/logo.png">
     <!-- Javascript tings-->
-    <script src="update.js"></script>
+    <!--<script src="lib/w3.js"></script>-->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
     <!-- The Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -43,10 +44,11 @@
         <!-- Nav bar ends -->
       </div>
       <div id="main" align="left">
-        <h2 align="left"><u>Template page</u></h2>
-          <div class="content">
-            <!--                            Body of the document begins here                        -->
-            <p>You found the template page! :D</p>
+          <div w3-include-html="test.html" class="content">
+		    <!--                            Body of the document begins here                        -->
+		    <script>
+				w3.includeHTML();
+			</script>
             <!--                            Body of the document ends here                          -->
           </div>
         <div id="footer" align="center">
